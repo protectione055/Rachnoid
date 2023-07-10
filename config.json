@@ -1,0 +1,33 @@
+{
+    "config1": {
+        "replace_char": {
+            "/": "-",
+            ":": " -",
+            "*": "·",
+            "?": " ",
+            "\"": "-",
+            "<": " ",
+            ">": " ",
+            "|": "-"
+        },
+        "valid_site": {
+            "SIGMOD": "acm",
+            "ICDE": "ieeexplore",
+            "CSUR": "acm"
+        },
+        "directory": "D:\\OneDrive\\文档\\Papers\\Database\\Conferences\\VLDB2022",
+        "TITLE_SHAI": [],
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44",
+        "cookie": {
+            "ieeexplore": ""
+        },
+        "referer": "https://idp.szu.edu.cn/"
+    },
+    "config2": {
+        "url": "http://vldb.org/pvldb/volumes/15#issue-12",
+        "year": "2022",
+        "until": "2022",
+        "typ": "A",
+        "conf": "VLDB"
+    }
+}
