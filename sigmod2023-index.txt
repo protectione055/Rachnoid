@@ -1,0 +1,261 @@
+
+Session 1: Time Series and data series
+Time2State: An Unsupervised Framework for Inferring the Latent States in Time Series Data
+Grouping Time Series for Efficient Columnar Storage
+Time Series Data Validity
+Joint Neural Architecture and Hyperparameter Search for Correlated Time Series Forecasting
+Dumpy: A Compact and Adaptive Index for Large Data Series Collections
+ForestTI: A Scalable Inverted-Index-Oriented Timeseries Management System with Flexible Memory Efficiency
+
+Session 2: Privacy, security and encryption, blockchains
+Toward Efficient Homomorphic Encryption for Outsourced Databases through Parallel Caching
+RLS Side Channels: Investigating Leakage of Row-Level Security Protected Data Through Query Execution Time
+A Framework for Privacy Preserving Localized Graph Pattern Query Processing
+Measuring Re-identification Risk
+Sequence-Based Target Coin Prediction for Cryptocurrency Pump-and-Dump
+When Private Blockchain Meets Deterministic Database
+
+Session 3: Transactions & Indexing
+Circinus: Fast Redundancy-Reduced Subgraph Matching
+I/O-Efficient Butterfly Counting at Scale
+Maximum k-Biplex Search on Bipartite Graphs: A Symmetric-BK Branching Approach
+Scaling Up k-Clique Densest Subgraph Detection
+Maximal Defective Clique Enumeration
+Efficient Biclique Counting in Large Bipartite Graphs
+
+
+Session 4: Sampling and cardinality estimation
+Efficient Estimation of Pairwise Effective Resistance
+Speeding Up End-to-end Query Execution via Learning-based Progressive Cardinality Estimation
+FactorJoin: A New Cardinality Estimation Framework for Join Queries
+Efficient Sampling Approaches to Shapley Value Approximation
+SafeBound: A Practical System for Generating Cardinality Bounds
+LAQy: Efficient and Reusable Query Approximations via Lazy Sampling
+
+
+Session 5: Time series and temporal data
+LightCTS: A Lightweight Framework for Correlated Time Series Forecasting
+T-Rex: Optimizing Pattern Search on Time Series
+OM^3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series
+LightTS: Lightweight Time Series Classification with Adaptive Ensemble Distillation
+DAMR: Dynamic Adjacency Matrix Representation Learning for Multivariate Time Series Imputation
+On Querying Spanned Connected Components in Large Temporal Graphs
+
+
+Session 6: Differential privacy
+A Neural Approach to Spatio-Temporal Data Release with User-Level Differential Privacy
+An Effective and Differentially Private Protocol for Secure Distributed Cardinality Estimation
+Practical Differentially Private and Byzantine-resilient Federated Learning
+PrivLava: Synthesizing Relational Data with Foreign Keys under Differential Privacy
+Global and Local Differentially Private Release of Count-Weighted Graphs
+Better than Composition: How to Answer Multiple Relational Queries under Differential Privacy
+
+
+Session 7: Sampling, cardinality estimation, uncertainties and probabilities
+Together is Better: Heavy Hitters Latency Quantile Estimation
+Efficient and Effective Cardinality Estimation for Skyline Family
+JoinSketch: A Sketch Algorithm for Accurate and Unbiased Inner-Product Estimation
+Most Expected Winner: An Interpretation of Winners over Uncertain Voter Preferences
+Probabilistic Reasoning at Scale: Trigger Graphs to the Rescue
+rkHit: Representative Query with Uncertain Preference
+
+
+Session 8: Clustering
+A New Sparse Data Clustering Method Based on Frequent Items
+An Efficient Algorithm for Distance-based Structural Graph Clustering
+Fast Density-Based Clustering: Geometric Approach
+FINEX: A Fast Index for Exact & Flexible Density-Based Clustering
+Efficient and Effective Attributed Hypergraph Clustering via K-Nearest Neighbor Augmentation
+Prerequisite-driven Fair Clustering on Heterogeneous Information Networks
+
+
+Session 9: Joins
+Raster Intervals: An Approximation Technique for Polygon Intersection Joins
+Detecting Logic Bugs of Join Optimizations in DBMS
+Efficiently Computing Join Orders with Heuristic Search
+Ready to Leap (by Co-Design)? Join Order Optimisation on Quantum Hardware
+Design and Analysis of a Processing-in-DIMM Join Algorithm: A Case Study with UPMEM DIMMs
+Free Join: Unifying Worst-Case Optimal and Traditional Joins
+
+
+Session 10: Learning, embeddings and analytics on graphs
+CompressGraph: Efficient Parallel Graph Analytics with Rule-Based Compression
+Making It Tractable to Catch Duplicates and Conflicts in Graphs
+Grep: A Graph Learning Based Database Partitioning System
+Efficient Tree-SVD for Subset Node Embedding over Large Dynamic Graphs
+Graph Learning for Interaction Analysis in Smart Home Rule Data
+T-FSM: A Task-Based System for Massively Parallel Frequent Subgraph Pattern Mining from a Big Graph
+
+
+
+Session 11: Data Models, Semantics, and Integration
+Learned Data-aware Image Representations of Line Charts for Similarity Search
+Discovering Similarity Inclusion Dependencies
+SANTOS: Relationship-based Semantic Table Union Search
+Composite Object Normal Forms
+Discovering Top-k Rules using Subjective and Objective Criteria
+Exploratory Training: When Annonators Learn About Data
+
+
+Session 12: Transactions
+Transaction Scheduling: From Conflicts to Runtime Conflicts
+MRV: Enforcing Numeric Invariants in Parallel Updates to Hotspots with Randomized Splitting
+Polaris: Enabling Transaction Priority in Optimistic Concurrency Control
+DBPA: A Benchmark for Transactional Database Performance Anomalies
+Detock: High Performance Multi-region Transactions at Scale
+One-shot garbage collection for in-memory OLTP through temporality-aware version storage
+
+
+Session 13: Ramdom walks and reachability on graphs
+Personalized PageRank on Evolving Graphs with an Incremental Index-Update Scheme
+Towards Generating Hop-constrained s-t Simple Path Graphs
+Effective and Efficient PageRank-based Positioning for Graph Visualization
+LightRW: FPGA Accelerated Graph Dynamic Random Walks
+Parallel Strong Connectivity Based on Faster Reachability
+HR-Index: An Effectiveness Index Method for Historical Reachability Queries over Evolving Graphs
+
+Session 14: Streams
+Fast Continuous Subgraph Matching over Streaming Graphs via Backtracking Reduction
+MorphStream: Adaptive Scheduling for Scalable Transactional Stream Processing on Multicores
+INEv: In-Network Evaluation for Event Stream Processing
+Pontus: Finding Waves in Data Streams
+Data Stream Clustering: An In-depth Empirical Study
+Ghost: A General Framework for High-Performance Online Similarity Queries over Distributed Trajectory Streams
+
+Session 15: Spatial and temporal data
+Effectiveness Perspectives and a Deep Relevance Model for Spatial Keyword Queries
+EAR-Oracle: On Efficient Indexing for Distance Queries between Arbitrary Points on Terrain Surface
+Spatio-Temporal Denoising Graph Autoencoders with Data Augmentation for Photovoltaic Data Imputation
+Caerus: A Caching-based Framework for Scalable Temporal Graph Neural Networks
+GeoGauss: Strongly Consistent Coordinator-Free OLTP for Geo-Replicated SQL Database
+The RLR-Tree: A Reinforcement Learning Based R-Tree for Spatial Data
+
+Session 16: Query Optimization
+Exploiting Structure in Regular Expression Queries
+Computing the Difference of Conjunctive Queries Efficiently
+Selection Pushdown in Column Stores using Bit Manipulation Instructions
+Efficient Query Re-optimization with Judicious Subquery Selections
+Automating and Optimizing Data-Centric What-If Analyses on Native Machine Learning Pipelines
+Query-Guided Resolution of Uncertain Databases
+
+Session 17: DB4ML
+Incremental Tabular Learning on Heterogeneous Feature Space
+FEAST: A Communication-efficient Federated Feature Selection Framework for Relational Data
+FlexMoE: Scaling Large-scale Sparse Pre-trained Model Training via Dynamic Device Placement
+ML2DAC: Meta-Learning to Democratize AutoML for Clustering Analysis
+GoodCore: Coreset Selection over Incomplete Data for Data-effective and Data-efficient Machine Learning
+DeltaBoost: Gradient Boosting Decision Trees with Efficient Machine Unlearning
+
+Session 18: Subgraph matching and counting
+Efficient Star-based Truss Maintenance on Dynamic Graphs
+Hereditary Cohesive Subgraphs Enumeration on Bipartite Graphs: The Power of Pivot-based Approaches
+GuP: Fast Subgraph Matching by Guard-based Pruning
+Efficient and Effective Algorithms for Generalized Densest Subgraph Discovery
+Efficient GPU-Accelerated Subgraph Matching
+Theories and Principles Matter: Towards Visually Appealing and Effective Abstraction of Property Graph Queries
+
+Session 19: Coordination, distribution and clouds
+Incentive-Aware Decentralized Data Collaboration
+A Unified and Efficient Coordinating Framework for Autonomous DBMS Tuning
+dsJSON: A Distributed SQL JSON Processor
+Generalizing Bulk-Synchronous Parallel Processing for Data Science: from data to threads and agent-based simulations
+DARQ Matter Binds Everything: Performant and Composable Cloud Programming via Resilient Steps
+Using Cloud Functions as Accelerator for Elastic Data Analytics
+
+Session 20: Spatial and temporal data
+Matching Roles from Temporal Data
+ST4ML: Machine Learning Oriented Spatio-Temporal Data Processing at Scale
+Mining Geospatial Relationships from Text
+SSIN: Self-Supervised Learning for Rainfall Spatial Interpolation
+WISK: A Workload-aware Learned Index for Spatial Keyword Queries
+QHL: A Fast Algorithm for Exact Constrained Shortest Path Search on Road Networks
+
+Session 21: ML4DB and Outlier detection
+Detect, Distill and Update: Learned DB Systems Facing Out of Distribution Data
+BALANCE: Bayesian Linear Attribution for Root Cause Localization
+Kepler: Robust Learning for Parametric Query Optimization
+XInsight: eXplainable Data Analysis Through The Lens of Causality
+AutoOD: Automatic Outlier Detection
+Robust and Transferable Log-based Anomaly Detection
+
+Session 22: Knowledge graphs and data integration
+A Universal Question-Answering Platform for Knowledge Graphs
+Deep Active Alignment of Knowledge Graph Entities and Schemata
+Maestro: Automatic Generation of Comprehensive Benchmarks for Question Answering Over Knowledge Graphs
+Ground Truth Inference for Weakly Supervised Entity Matching
+FlexER: Flexible Entity Resolution for Multiple Intents
+Unicorn: A Unified Multi-tasking Model for Supporting Matching Tasks in Data Integration
+
+Session 23: Indexing and estimation
+When Tree Meets Hash: Reducing Random Reads for Index Structures on Persistent Memories
+NeuroSketch: Fast and Approximate Evaluation of Range Aggregate Queries with Neural Networks
+Pea Hash: A Performant Extendible Adaptive Hashing Index
+Updatable Learned Indexes Meet Disk-Resident DBMS - From Evaluations to Design Choices
+InfiniFilter: Expanding Filters to Infinity and Beyond
+A Step Toward Deep Online Aggregation
+
+Session 24: Big Data analytics and data science pipelines
+HybridPipe: Combining Human-generated and Machine-generated Pipelines for Data Preparation
+GIO: Generating Efficient Matrix and Frame Readers for Custom Data Formats by Example
+Predicate Pushdown for Data Science Pipelines
+DiffPrep: Differentiable Data Preprocessing Pipeline Search for Learning over Tabular Data
+Runtime Variation in Big Data Analytics
+QaaD (Query-as-a-Data): Scalable Execution of Massive Number of Small Queries in Spark
+
+Session 25: Indexing and similarity search
+Efficient Approximate Nearest Neighbor Search in Multi-dimensional Databases
+High-Dimensional Approximate Nearest Neighbor Search: with Reliable and Efficient Distance Comparison Operations
+SplinterDB and Maplets: Improving the Tradeoffs in Key-Value Store Compaction Policy
+IcebergHT: High Performance PMEM Hash Tables Through Stability and Low Associativity
+Hamming Tree: The case for Energy-Aware Indexing for NVMs
+LiteHST: A Tree Embedding based Method for Similarity Search
+
+Session 26: Graphs
+TED: Towards Discovering Top-𝑘 Edge-Diversified Patterns in a Graph Database
+Shortest Paths Discovery in Uncertain Networks via Transfer Learning
+Efficient Personalized PageRank Computation: The Power of Variance-Reduced Monte Carlo Approaches
+Efficient Resistance Distance Computation: the Power of Landmark-based Approaches
+GraphINC: Graph Pattern Mining at Network Speed
+Scapin: Scalable Graph Structure Perturbation by Augmented Influence Maximization
+
+Session 27: Modern hardware, performance, and benchmarking
+Design Guidelines for Correct, Efficient, and Scalable Synchronization using One-Sided RDMA
+Distributed GPU Joins on Fast RDMA-capable Networks
+ClipSim: A GPU-friendly Parallel Framework for Single-Source SimRank with Accuracy Guarantee
+Virtual-Memory Assisted Buffer Management
+Optimizing Tensor Programs on Flexible Storage
+How To Optimize My Blockchain? A Multi-Level Recommendation Approach
+
+Session 28: Data mining and discovery
+Regularized Pairwise Relationship based Analytics for Structured Data
+Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+GitTables: A Large-Scale Corpus of Relational Tables
+Near-Duplicate Sequence Search at Scale for Neural Language Model Memorization Evaluation
+Unsupervised Hashing with Semantic Concept Mining
+FEC: Efficient Deep Recommendation Model Training with Flexible Embedding Communication
+
+
+Session 29: Compression and fairness
+Double-Anonymous Sketch: Achieving Fairness for Finding Global Top-K Frequent Items
+LadderFilter: Filtering Infrequent Items with Small Memory and Time Overhead
+TowerSensing: Linearly Compressing Sketches with Flexibility
+iFlipper: Label Flipping for Individual Fairness
+Hierarchical Residual Encoding for Multiresolution Compression
+BtrBlocks: Efficient Columnar Compression for Data Lakes
+
+Session 30: Diffusion and Propagation in Graphs
+DUCATI: A Dual-Cache Training System for Graph Neural Networks on Giant Graphs with GPU
+Scalable and Efficient Full-Graph GNN Training for Large Graphs
+Managing Conflicting Interests of Stakeholders in Influencer Marketing
+EARLY: Efficient and Reliable Graph Neural Network for Dynamic Graphs
+Mitigating Filter Bubbles Under a Competitive Diffusion Model
+Popularity Ratio Maximization: Surpassing Competitors through Influence Propagation
+
+Session 31: Optimizing data systems
+LinCQA: Faster Consistent Query Answering with Linear Time Guarantees
+Data-Sharing Markets: Model, Protocol, and Algorithms to Incentivize the Formation of Data-Sharing Consortia
+Foreign Keys Open the Door for Faster Incremental View Maintenance
+Efficient and Portable Einstein Summation in SQL
+dbET: Execution Time Distribution-based Plan Selection
+AWARE: Workload-aware, Redundancy-exploiting Linear Algebra
+
