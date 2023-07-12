@@ -1,8 +1,9 @@
-from .collector import AbstractCollector
+from collector.abstract_collector import AbstractCollector
 from downloader import AcmDownloader
 import requests
 from bs4 import BeautifulSoup
 import os
+import random
 from time import sleep
 
 class DblpCollector(AbstractCollector):
@@ -21,7 +22,7 @@ class DblpCollector(AbstractCollector):
         # h2_list = soup.find_all("h2")
         h2_list = [h2.text for h2 in soup.find_all("h2") if h2.text != "Refine list"]
         # 找到所有class为"pub-list"的ul结点
-        pub_list = soup.find_all("ul", "publ-list")[1:]
+        pub_list = soup.find_all("ul", "publ-list")
         if len(h2_list) != len(pub_list):
             print(len(h2_list), len(pub_list))
             raise Exception("h2_list and pub_list not match")
@@ -32,7 +33,7 @@ class DblpCollector(AbstractCollector):
             self.__url_list[session] = {}
             cur_session = self.__url_list[session]
             # 遍历pub_list中每一个li结点
-            for li in pub_list[i].find_all("li", "entry inproceedings"):
+            for li in pub_list[i].find_all("li", "entry article"):
                 paper_url = li.select("nav > ul > li:nth-child(1) > div.head > a")[0].get("href")
                 paper_title = li.select("cite > span.title")[0].text.strip(".")
                 print("session:%s, paper_title:%s, paper_url:%s" % (session, paper_title, paper_url))
@@ -44,7 +45,7 @@ class DblpCollector(AbstractCollector):
                 paper_url = self.__url_list[session][paper_title]
                 try:
                     self.downloader.download_paper_from_url(session, paper_title, paper_url)
-                    sleep(5)
+                    sleep(random.randint(5, 20))
                 except Exception as ex:
                     print("download_papers: failed:%s" % ex)
                     self.__error_list[paper_title] = paper_url

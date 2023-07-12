@@ -1,3 +1,4 @@
-import collector.dblp_collector as dblp_collector
+import collector.dblp_collector
 
-DblpSpider = dblp_collector.DblpCollector
+
+DblpCollector = collector.dblp_collector.DblpCollector

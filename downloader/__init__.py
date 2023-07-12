@@ -1,3 +1,3 @@
-import downloader.acm_downloader as acm_downloader
+import downloader.acm_downloader
 
-AcmDownloader = acm_downloader.AcmDownloader
+AcmDownloader = downloader.acm_downloader.AcmDownloader
