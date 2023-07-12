@@ -2,7 +2,7 @@
 
 ## 1. 简介
 
-请在Windows平台运行。
+一个从[dblp](dblp.org)下载会议论文的爬虫工具，当然也可以进行扩展，从其他网站上下载论文。
 
 ## 2. 使用方法
 
@@ -20,6 +20,8 @@
 pip install -r requirements.txt
 ```
 
-### 2.2 修改配置文件
+### 2.2. 运行
 
-请在`config.json`中修改配置。
+```
+python main.py
+```

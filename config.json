@@ -1,7 +1,7 @@
 {
 	"project_name": "SIGMOD",
 	"year": "2023",
-	"index_url": "",
+	"index_url": "https://dblp.uni-trier.de/db/conf/sigmod/sigmod2023c.html",
 	"index_site": "dblp",
 	"library_site": "acm",
 	"library_cookie": ""
